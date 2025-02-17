@@ -2,7 +2,7 @@ from config.app import *
 import pandas as pd
 
 
-def GenerateReportVentasPaisCompraMenos(app:App):
+def GenerateReportVentas(app:App):
     conn=app.bd.getConection()
     query="""
         SELECT 

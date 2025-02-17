@@ -22,7 +22,7 @@ def menu(app:App):
             IngestDataProducts(app)
             pass
         elif opcion == "2":           
-            #GenerateReportVentas(app)
+            GenerateReportVentas(app)
             pass
         elif opcion == "3":
             pass
